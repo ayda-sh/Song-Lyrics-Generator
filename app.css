@@ -1,0 +1,42 @@
+body {
+    background-color: #333333;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.container .title {
+    color: #ff561c;
+}
+.container form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ff561c;
+    width: 300px;
+    outline: none;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+#qeneratebtn {
+    background-color: #ff561c;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.songs-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+}
+
+.lyrics {
+    color: #fff;
+}
